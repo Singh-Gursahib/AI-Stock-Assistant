@@ -1,0 +1,5 @@
+streamlit==1.10.0
+requests==2.28.1
+xmltodict==0.13.0
+crew-ai==1.0.0
+streamlit-lightweight-charts==0.1.0
