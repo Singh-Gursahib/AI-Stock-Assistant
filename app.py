@@ -1,4 +1,4 @@
-import os
+erimport os
 import requests
 import xml.etree.ElementTree as ET
 import streamlit as st
@@ -8,8 +8,7 @@ from crewai import Agent, Task, Crew
 # Environment Configuration for API Access
 os.environ["OPENAI_API_BASE"] = 'https://api.groq.com/openai/v1'
 os.environ["OPENAI_MODEL_NAME"] = "llama3-70b-8192"
-os.environ["OPENAI_API_KEY"] = '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'
-NOTION_TOKEN = 'secret_F9clIJWRa6SPzqBpsM27zOKQ4QC4FjmBVBWty0zAgHt'
+os.environ["OPENAI_API_KEY"] = 'enter-groq-api-key'
 
 # Function to Get News Titles from Google News RSS Feed
 def get_news_titles(keyword):
